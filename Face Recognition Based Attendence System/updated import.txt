@@ -1,0 +1,3 @@
+A change was made in Python 3.10 where Iterable was moved from collections to collections.abc. To fix this, you should import Iterable from collections.abc instead.
+
+If you have older version of python installed <Python 3.10 Iterable will work fine. 
