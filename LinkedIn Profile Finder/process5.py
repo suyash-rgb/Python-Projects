@@ -55,6 +55,6 @@ for i in range(row_number - 1, row_number + 4):  # Adjusting for 0-based index a
         if name:
             profile = fetch_linkedin_profile(name, company)
             print(profile)  # Display the result in the console
-            time.sleep(1)  # Pause for 1 second between searches
+            time.sleep(1)  # Pause for 1 second between searches (should experiment with increasing this)
     else:
         print(f"Row {i + 1} is out of range.")
