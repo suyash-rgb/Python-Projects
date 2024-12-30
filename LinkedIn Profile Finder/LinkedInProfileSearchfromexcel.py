@@ -19,14 +19,14 @@ def fetch_linkedin_profile(name, company):
         return f"An error occurred: {str(e)}"
 
 # Function to extract name from HYPERLINK
-def extract_name(hyperlink):
+def extract_name(hyperlink):  # In my excel file the name was in a href
     match = re.search(r'","(.*?)"\)$', hyperlink)
     if match:
         return match.group(1)
     return hyperlink  # Return the entire string if no match, assuming it might be the name directly
 
 # Ask user to specify the row number
-row_number = int(input("Enter the row number to process (starting from 1): "))
+row_number = int(input("Enter the row number to process (starting from 1): ")) 
 
 # Read the Excel file (assumed to be in the same folder as the script)
 excel_file = 'input.xlsx'  # Update the file name as needed
@@ -42,6 +42,7 @@ name_column = "Client name "  # Update the column name for 'Client name'
 company_column = "Company name"  # Update the column name for 'Company name'
 
 # Get the specified row
+# In future Pandas will not use indexing for accesing location in sheets, iloc can work
 row = df.iloc[row_number - 1]  # Subtract 1 because DataFrame index starts from 0
 
 # Extract name and company from the specified row
@@ -53,4 +54,5 @@ print(f"Processing: {name} from {company}")
 if name:
     profile = fetch_linkedin_profile(name, company)
     print(profile)  # Display the result in the console
+    #Introcuding a pause between the queries because of the google rate limitations
     time.sleep(1)  # Pause for 1 second between searches
