@@ -46,6 +46,7 @@ for index, row in df.iloc[1:].iterrows():  # iloc[1:] skips the header
         profile = fetch_linkedin_profile(name, company)
         df.at[index, 'LinkedIn Profile'] = profile
         time.sleep(5)  # Fixed pause of 5 seconds between searches
+        #I also tried implementing a random pause of a period between 2-5 seconds, but to no avail. You should try maybe 10 seconds
 
 # Write the updated DataFrame to a new Excel file
 df.to_excel('output.xlsx', index=False)
