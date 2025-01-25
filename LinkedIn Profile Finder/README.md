@@ -2,6 +2,7 @@
 ![photo](https://github.com/suyash-rgb/Python-Projects/blob/8cc898695c0a2b55cd70ecaa9e5451ed8688c712/LinkedIn%20Profile%20Finder/images/1.png)
 ### Overview
 Discovering LinkedIn profiles manually can be a tedious task, especially when dealing with long candidate lists. This Python script automates the process by leveraging Google search, making it easier and faster to find LinkedIn profiles based on candidate names and their company information.
+![Demo](https://github.com/suyash-rgb/Python-Projects/blob/1f1e173b908d0d7a4a49cb1b424228b1c44b7fc7/LinkedIn%20Profile%20Finder/gif/google%20search.gif)
 
 ### Features
 - **Automated Searches**: Input candidate names and company information, and the script will find the most relevant LinkedIn profiles.
