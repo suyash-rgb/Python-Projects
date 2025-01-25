@@ -23,6 +23,26 @@ You can install the necessary libraries using pip:
 pip install pandas googlesearch-python
 ```
 
+#### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone [Repository Link]
+    cd linkedin-profile-discovery
+    ```
+
+2. Set up your Excel file with candidate names and company information.
+
+#### Usage
+
+1. Update the script with the path to your Excel file.
+
+2. Run the script:
+    ```bash
+    python linkedin_profile_discovery.py
+    ```
+
+3. The script will search for LinkedIn profiles and save the results in a new Excel file.
 
 ### How It Works
 - **Input**: Provide an Excel file with columns for candidate names and company names.
