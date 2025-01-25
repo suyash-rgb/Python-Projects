@@ -1,5 +1,25 @@
 # Automating LinkedIn Profile Discovery with Python
 ![photo](https://github.com/suyash-rgb/Python-Projects/blob/8cc898695c0a2b55cd70ecaa9e5451ed8688c712/LinkedIn%20Profile%20Finder/images/1.png)
+
+## Why We Chose Google Search Over LinkedIn API for Profile Discovery
+
+Initially, we explored using LinkedIn’s official API to programmatically access profile data. This approach required:
+1. **Creating a LinkedIn Developer Account**: 
+    - Registering an application and obtaining API keys.
+2. **OAuth Authentication**: 
+    - Setting up secure access to LinkedIn's data with user authorization.
+3. **Usage Restrictions**: 
+    - Compliance with LinkedIn’s terms of service, limiting access to data only from users who authorize the app.
+![process](https://github.com/suyash-rgb/Python-Projects/blob/8cc898695c0a2b55cd70ecaa9e5451ed8688c712/LinkedIn%20Profile%20Finder/images/1.png)
+
+Upon deeper evaluation, we found that this method wouldn’t meet our needs due to restrictions and the necessity of user authorization.
+
+### Why We Chose an Alternative Approach
+Given the limitations of LinkedIn’s API, we opted for a solution leveraging Google search. This method allowed us to:
+- **Perform Automated Searches**: Using Google to search for LinkedIn profiles based on candidate names and company information.
+- **Avoid Authorization Hurdles**: No need for explicit user authorization for accessing public profile data.
+- **Maintain Efficiency**: Implement rate limiting to handle large datasets without interruptions.
+
 ### Overview
 Discovering LinkedIn profiles manually can be a tedious task, especially when dealing with long candidate lists. This Python script automates the process by leveraging Google search, making it easier and faster to find LinkedIn profiles based on candidate names and their company information. <br> <br>
 ![Demo](https://github.com/suyash-rgb/Python-Projects/blob/1f1e173b908d0d7a4a49cb1b424228b1c44b7fc7/LinkedIn%20Profile%20Finder/gif/google%20search.gif)
