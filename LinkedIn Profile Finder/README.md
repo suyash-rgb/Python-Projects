@@ -34,6 +34,8 @@ pip install pandas googlesearch-python
 
 ### Recommendations
 - For large-scale professional use, consider tools like LinkedIn Sales Navigator or LinkedIn Recruiter, which comply with LinkedIn’s Terms of Service.
+![Demo](path/to/your/demo.gif)
+![Demo](path/to/your/demo.gif)
 
 ### Contributing
 Feel free to fork this repository, make improvements, and submit pull requests. Your contributions are welcome!
