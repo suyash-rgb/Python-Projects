@@ -20,7 +20,7 @@ You can install the necessary libraries using pip:
 
 ```bash
 pip install pandas googlesearch-python
-
+```
 
 
 ### How It Works
