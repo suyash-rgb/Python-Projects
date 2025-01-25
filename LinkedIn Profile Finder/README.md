@@ -10,7 +10,7 @@ Initially, we explored using LinkedIn’s official API to programmatically acces
     - Setting up secure access to LinkedIn's data with user authorization.
 3. **Usage Restrictions**: 
     - Compliance with LinkedIn’s terms of service, limiting access to data only from users who authorize the app.
-![process](https://github.com/suyash-rgb/Python-Projects/blob/8cc898695c0a2b55cd70ecaa9e5451ed8688c712/LinkedIn%20Profile%20Finder/images/1.png)
+![process](https://github.com/suyash-rgb/Python-Projects/blob/628878ed23e116b6e8821cfa5d53b9abb709cc58/LinkedIn%20Profile%20Finder/gif/process.gif)
 
 Upon deeper evaluation, we found that this method wouldn’t meet our needs due to restrictions and the necessity of user authorization.
 
